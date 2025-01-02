@@ -9,110 +9,48 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
+        keymap {
+                compatible = "zmk,keymap";
 
-        // Base Layer
-        base_layer {
-            bindings = <
-                &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
-                &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI
-                &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH
-                &trans &mo LANG_LAYER &kp SPACE &mo NAV_LAYER
-            >;
+                default_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
+// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
+//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+                        bindings = <
+   &trans   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &trans
+   &trans &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &trans
+   &trans &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &trans
+                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+                        >;
+                };
+                lower_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &trans    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &trans
+   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &trans  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
+                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+                        >;
+                };
+
+                raise_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &trans  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &trans
+   &trans &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &trans
+   &trans &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &trans
+                             &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                        >;
+                };
         };
-
-        // Russian Language Layer
-        lang_layer {
-            bindings = <
-                // Left side
-                &kp Й &kp Ц &kp У &kp К &kp Е &kp Н &kp Г &kp Ш &kp Щ &kp З
-                &kp Ф &kp Ы &kp В &kp А &kp П &kp Р &kp О &kp Л &kp Д &kp Ж
-                &kp Я &kp Ч &kp С &kp М &kp И &kp Т &kp Ь &kp Б &kp Ю &kp Э
-
-                // Right side
-                &none &none &none &none &none &kp Ё
-                &none &none &none &none &kp Ё
-                &kp COMMA &kp DOT &kp LBRC &kp RBRC &kp MINUS
-                &trans &kp ALT &kp SYM &kp BASE_LAYER
-            >;
-        };
-
-        // Symbol Layer
-        sym_layer {
-            bindings = <
-                &kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PERCENT
-                &kp TILDE &kp GRAVE &kp QUOTE &kp DQUO &kp MINUS
-                &kp BSLASH &kp PIPE &kp SEMI &kp COLON &kp UNDER
-                &kp PLUS &kp SHIFT &kp CTRL &kp ALT &kp GUI
-                &trans &kp EQUAL &kp DOT &kp SLASH &kp SYM_LAYER
-            >;
-        };
-
-        // Navigation Layer
-        nav_layer {
-            bindings = <
-                &kp TAB &kp LEFT_GUI &kp LEFT_ALT &kp LEFT_CTRL &kp LEFT_SHIFT
-                &kp ESC &kp HOME &kp END &kp BACKSPACE &kp DELETE
-                &kp SPACE &kp LEFT &kp RIGHT &mo GAME_LAYER
-                &kp ENTER &kp LEFT &kp DOWN &kp UP &kp RIGHT
-                &kp PRINT_SCREEN &kp PAGE_UP &kp PAGE_DOWN &kp NUMLOCK
-                &kp TAB &mo SYM_LAYER &mo CMD_LAYER &kp NAV_LAYER
-            >;
-        };
-
-        // Number and Function Keys Layer
-        num_layer {
-            bindings = <
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5
-                &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-                &kp LEFT_GUI &kp LEFT_ALT &kp LEFT_CTRL &kp LEFT_SHIFT &kp F11
-                &kp F12 &kp LEFT_SHIFT &kp LEFT_CTRL &kp LEFT_ALT &kp LEFT_GUI
-                &kp F1 &kp F2 &kp F3 &kp F4 &kp F5
-                &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-                &trans &mo LANG_LAYER &kp SPACE &mo NAV_LAYER
-                &mo SYM_LAYER &kp LEFT_SHIFT &kp ALT &mo NUM_LAYER
-            >;
-        };
-
-        // Special Symbols Layer
-        alt_layer {
-            bindings = <
-                &kp U+03C8 &kp U+03A9 &kp U+20AC &kp U+00AE &kp U+0401
-                &kp U+00A5 &kp U+03BB &kp U+0429 &kp LT &kp GT
-                &kp U+03B1 &kp U+00A7 &kp U+00B0 &kp U+00A3 &kp U+03B3
-                &kp U+20BD &kp U+00D8 &kp U+2265 &kp AB &kp BB
-                &kp U+03BC &kp U+00D7 &kp U+00A9 &kp U+221A &kp U+03B2
-                &kp U+03B7 &kp U+044A &kp AMPERSAND &kp LBKT &kp RBKT
-                &trans &mo LANG_LAYER &kp NBSP &mo NAV_LAYER
-                &mo SYM_LAYER &kp LEFT_SHIFT &kp ALT &mo ALT_LAYER
-            >;
-        };
-
-        // Gaming Layer
-        game_layer {
-            bindings = <
-                &kp TAB &kp Q &kp X &kp E &kp R
-                &kp LEFT_SHIFT &kp A &kp W &kp D &kp F
-                &kp LEFT_CTRL &kp Z &kp S &kp C &kp V
-                &trans &kp LEFT_ALT &kp SPACE &mo GAME_FUNC_LAYER
-                &none &none &none &none &kp TAB
-                &none &kp LEFT &kp UP &kp RIGHT &kp LEFT_SHIFT
-                &none &kp DOWN &kp LEFT_CTRL &kp PRNT_SCREEN
-                &mo BASE_LAYER &kp SPACE &kp PRNT_SCREEN &mo GAME_LAYER
-            >;
-        };
-
-        // Gaming Function Layer
-        game_func_layer {
-            bindings = <
-                &kp N5 &kp N1 &kp N2 &kp N3 &kp N4
-                &kp N0 &kp N6 &kp N7 &kp N8 &kp N9
-                &kp G &kp J &kp I &kp M &kp T
-                &none &none &none &none &none
-                &trans &kp ESC &kp ENTER &mo GAME_FUNC_LAYER
-                &mo BASE_LAYER &kp SPACE &kp PRINT_SCREEN &mo GAME_LAYER
-            >;
-        };
-    };
 };
