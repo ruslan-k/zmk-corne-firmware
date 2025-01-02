@@ -27,6 +27,28 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        ru_layer_switch {
+            bindings = <&tog 1>;
+            key-positions = <36 38>;
+            layers = <0>;
+        };
+
+        base_layer_switch {
+            bindings = <&tog 0>;
+            key-positions = <36 38>;
+            layers = <1>;
+        };
+
+        l_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <24 25>;
+        };
+
+        r_shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <35 34>;
+        };
     };
 
     keymap {
