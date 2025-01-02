@@ -49,6 +49,24 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <34 33>;
         };
+
+        ru_yo {
+            bindings = <&kp RU_CYRILLIC_IO>;
+            key-positions = <41 5>;
+            layers = <1>;
+        };
+
+        ru_schya {
+            bindings = <&kp RU_CYRILLIC_SHCHA>;
+            key-positions = <41 8>;
+            layers = <1>;
+        };
+
+        ru_hard_sign {
+            bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
+            key-positions = <41 31>;
+            layers = <1>;
+        };
     };
 
     keymap {
