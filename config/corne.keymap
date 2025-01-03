@@ -26,12 +26,14 @@
 
         ru_layer_switch {
             bindings = <&to 1>;
-            key-positions = <40 39>;
+            key-positions = <40 39 41>;
+            slow-release;
         };
 
         base_layer_switch {
             bindings = <&to 0>;
-            key-positions = <37 38>;
+            key-positions = <37 38 36>;
+            slow-release;
         };
 
         ru_yo {
