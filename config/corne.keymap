@@ -9,14 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt {
-    tapping-term-ms = <1000>;
-};
-
+&mt { tapping-term-ms = <1000>; };
 
 / {
-
-
     combos {
         compatible = "zmk,combos";
 
@@ -27,14 +22,14 @@
 
         ru_layer_switch {
             bindings = <&tog 1>;
-            key-positions = <38 37>;
+            key-positions = <40 39>;
             layers = <0>;
             timeout-ms = <50>;
         };
 
         base_layer_switch {
             bindings = <&tog 0>;
-            key-positions = <38 37>;
+            key-positions = <37 38>;
             layers = <1>;
             timeout-ms = <50>;
         };
