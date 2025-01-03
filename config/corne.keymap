@@ -32,40 +32,47 @@
             bindings = <&tog 1>;
             key-positions = <36 38>;
             layers = <0>;
+            timeout-ms = <50>;
         };
 
         base_layer_switch {
             bindings = <&tog 0>;
             key-positions = <36 38>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         l_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <25 26>;
+            timeout-ms = <50>;
         };
 
         r_shift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <34 33>;
+            timeout-ms = <50>;
         };
 
         ru_yo {
             bindings = <&kp RU_CYRILLIC_IO>;
             key-positions = <41 5>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         ru_schya {
             bindings = <&kp RU_CYRILLIC_SHCHA>;
             key-positions = <41 8>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         ru_hard_sign {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <41 31>;
             layers = <1>;
+            timeout-ms = <50>;
         };
 
         tab {
