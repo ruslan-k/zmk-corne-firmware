@@ -6,6 +6,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: joelspadin
       url-base: https://github.com/joelspadin
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,5 +16,8 @@ manifest:
     - name: zmk-locales
       remote: joelspadin
       revision: main
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
   self:
     path: config
