@@ -13,16 +13,6 @@
     combos {
         compatible = "zmk,combos";
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <21 22>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 10>;
-        };
-
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
