@@ -23,15 +23,13 @@
         ru_layer_switch {
             bindings = <&tog 1>;
             key-positions = <40 39>;
-            layers = <0>;
-            timeout-ms = <50>;
+            layers = <1>;
         };
 
         base_layer_switch {
             bindings = <&tog 0>;
             key-positions = <37 38>;
-            layers = <1>;
-            timeout-ms = <50>;
+            layers = <0>;
         };
 
         ru_yo {
