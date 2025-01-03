@@ -61,21 +61,21 @@ MAKE_HRM(hmr_rpar_gt,  &kp, &rpar_gt,    KEYS_L THUMBS)  // "    "   "   "
         };
 
         ru_yo {
-            bindings = <&kp RU_CYRILLIC_IO>;
+            bindings = <&ru_yo>;
             key-positions = <5 40>;
             layers = <1>;
             timeout-ms = <50>;
         };
 
         ru_schya {
-            bindings = <&kp RU_CYRILLIC_SHCHA>;
+            bindings = <&ru_shch>;
             key-positions = <8 40>;
             layers = <1>;
             timeout-ms = <50>;
         };
 
         ru_hard_sign {
-            bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
+            bindings = <&ru_hard>;
             key-positions = <31 40>;
             layers = <1>;
             timeout-ms = <50>;
