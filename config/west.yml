@@ -13,9 +13,13 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-helpers
+    - name: zmk
       remote: urob
       revision: main
+      import: app/west.yml
+    - name: zmk-helpers
+      remote: urob
+      revision: v2
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
