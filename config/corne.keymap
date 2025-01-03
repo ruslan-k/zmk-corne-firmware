@@ -42,18 +42,6 @@
             timeout-ms = <50>;
         };
 
-        l_shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <25 26>;
-            timeout-ms = <50>;
-        };
-
-        r_shift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <34 33>;
-            timeout-ms = <50>;
-        };
-
         ru_yo {
             bindings = <&kp RU_CYRILLIC_IO>;
             key-positions = <41 5>;
@@ -102,10 +90,10 @@
 
         russian_layer {
             bindings = <
-&none  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp E               &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_ZE  &kp RU_CYRILLIC_HA   &none
-&none  &mt RU_CYRILLIC_EF LEFT_WIN      &mt RU_CYRILLIC_YERU LEFT_ALT  &mt RU_CYRILLIC_VE LEFT_CONTROL  &mt RU_CYRILLIC_A LEFT_SHIFT   &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &mt RU_CYRILLIC_O RIGHT_SHIFT         &mt RU_CYRILLIC_EL RIGHT_CONTROL  &mt RU_CYRILLIC_DE RIGHT_ALT  &mt RU_CYRILLIC_ZHE RIGHT_GUI &none
-&none  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU  &kp RU_CYRILLIC_E    &none
-                                                      &kp LGUI            &mo 2               &kp SPACE             &kp SPACE           &mo 3                      &kp RALT
+&none  &kp RU_CYRILLIC_SHORT_I      &kp RU_CYRILLIC_TSE            &kp E                            &kp RU_CYRILLIC_KA            &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE            &kp RU_CYRILLIC_SHA               &kp RU_CYRILLIC_ZE            &kp RU_CYRILLIC_HA             &none
+&none  &mt RU_CYRILLIC_EF LEFT_WIN  &mt RU_CYRILLIC_YERU LEFT_ALT  &mt RU_CYRILLIC_VE LEFT_CONTROL  &mt RU_CYRILLIC_A LEFT_SHIFT  &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &mt RU_CYRILLIC_O RIGHT_SHIFT  &mt RU_CYRILLIC_EL RIGHT_CONTROL  &mt RU_CYRILLIC_DE RIGHT_ALT  &mt RU_CYRILLIC_ZHE RIGHT_GUI  &none
+&none  &kp RU_CYRILLIC_YA           &kp RU_CYRILLIC_CHE            &kp RU_CYRILLIC_ES               &kp RU_CYRILLIC_EM            &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN      &kp RU_CYRILLIC_BE                &kp RU_CYRILLIC_YU            &kp RU_CYRILLIC_E              &none
+                                                                   &kp LGUI                         &mo 2                         &kp SPACE             &kp SPACE           &mo 3                          &kp RALT
             >;
         };
 
