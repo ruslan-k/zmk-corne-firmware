@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <600>;
+    tapping-term-ms = <800>;
 };
 
 
