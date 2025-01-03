@@ -63,7 +63,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        en {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -78,7 +78,7 @@
             >;
         };
 
-        russian_layer {
+        ru {
             bindings = <
 &none  &kp RU_CYRILLIC_SHORT_I      &kp RU_CYRILLIC_TSE            &kp E                            &kp RU_CYRILLIC_KA            &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE            &kp RU_CYRILLIC_SHA               &kp RU_CYRILLIC_ZE            &kp RU_CYRILLIC_HA             &none
 &none  &mt LEFT_WIN RU_CYRILLIC_EF  &mt LEFT_ALT RU_CYRILLIC_YERU  &mt LEFT_CONTROL RU_CYRILLIC_VE  &mt LEFT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &mt RIGHT_SHIFT RU_CYRILLIC_O  &mt RIGHT_CONTROL RU_CYRILLIC_EL  &mt RIGHT_ALT RU_CYRILLIC_DE  &mt RIGHT_GUI RU_CYRILLIC_ZHE  &none
@@ -87,7 +87,7 @@
             >;
         };
 
-        lower_layer {
+        lower {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -102,7 +102,7 @@
             >;
         };
 
-        raise_layer {
+        raise {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
