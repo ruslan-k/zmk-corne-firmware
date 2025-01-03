@@ -86,18 +86,18 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O             &kp P              &trans
-&trans  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K          &kp L             &kp TILDE          &trans
-&trans  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&none  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O             &kp P              &none
+&none  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K          &kp L             &kp TILDE          &none
+&none  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
                       &kp LGUI  &mo 2  &kp SPACE    &kp SPACE  &mo 3  &kp RALT
             >;
         };
 
         russian_layer {
             bindings = <
-&trans  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp E               &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_ZE  &kp RU_CYRILLIC_HA   &trans
-&trans  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE  &kp RU_CYRILLIC_ZHE  &trans
-&trans  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU  &kp RU_CYRILLIC_E    &trans
+&none  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp E               &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_ZE  &kp RU_CYRILLIC_HA   &none
+&none  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE  &kp RU_CYRILLIC_ZHE  &none
+&none  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU  &kp RU_CYRILLIC_E    &none
                                                        &kp LGUI            &mo 2               &kp SPACE             &kp SPACE           &mo 3                      &kp RALT
             >;
         };
@@ -110,10 +110,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1        &kp N2        &kp N3        &kp N4             &kp N5             &kp N6      &kp N7                &kp N8                &kp N9   &kp N0   &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F11  &kp F12  &trans
-&trans  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F6      &kp F7                &kp F8                &kp F9   &kp F10  &trans
-                                    &kp LGUI      &trans             &kp SPACE          &kp RET     &trans                &kp RALT
+&none  &kp N1        &kp N2        &kp N3        &kp N4             &kp N5             &kp N6      &kp N7                &kp N8                &kp N9   &kp N0   &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F11  &kp F12  &none
+&none  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F6      &kp F7                &kp F8                &kp F9   &kp F10  &none
+                                    &kp LGUI      &none             &kp SPACE          &kp RET     &none                &kp RALT
             >;
         };
 
@@ -125,10 +125,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL   &kp AT    &kp HASH   &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &kp PG_UP  &kp UP    &kp PG_DN  &kp SINGLE_QUOTE  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
-&trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DOT           &kp COMMA    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
-                             &kp LGUI   &trans            &kp SPACE    &kp SPACE  &trans     &kp RALT
+&none  &kp EXCL   &kp AT    &kp HASH   &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &none
+&none  &kp PG_UP  &kp UP    &kp PG_DN  &kp SINGLE_QUOTE  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &none
+&none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DOT           &kp COMMA    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &none
+                             &kp LGUI   &none            &kp SPACE    &kp SPACE  &none     &kp RALT
             >;
         };
     };
