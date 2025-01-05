@@ -50,14 +50,14 @@ ZMK_UNICODE_PAIR(ru_tone ,    N0 , N4 , N4 ,  C ,    N0 , N4 , N4 ,  A) // ь/ъ
         bindings = <BINDING1>, <BINDING2>; \
     )
 
-MAKE_MOD_TAP(mod_ru_f, LCTRL, &ru_f)
-MAKE_MOD_TAP(mod_ru_bi, LALT, &ru_bi)
-MAKE_MOD_TAP(mod_ru_v, LGUI, &ru_v)
-MAKE_MOD_TAP(mod_ru_a, LSHFT, &ru_a)
-MAKE_MOD_TAP(mod_ru_zh, RCTRL, &ru_zh)
-MAKE_MOD_TAP(mod_ru_d, RALT, &ru_d)
-MAKE_MOD_TAP(mod_ru_l, RGUI, &ru_l)
-MAKE_MOD_TAP(mod_ru_o, RSHFT, &ru_o)
+MAKE_MOD_TAP(mod_ru_f, &kp, &ru_f)
+MAKE_MOD_TAP(mod_ru_bi, &kp, &ru_bi)
+MAKE_MOD_TAP(mod_ru_v, &kp, &ru_v)
+MAKE_MOD_TAP(mod_ru_a, &kp, &ru_a)
+MAKE_MOD_TAP(mod_ru_zh, &kp, &ru_zh)
+MAKE_MOD_TAP(mod_ru_d, &kp, &ru_d)
+MAKE_MOD_TAP(mod_ru_l, &kp, &ru_l)
+MAKE_MOD_TAP(mod_ru_o, &kp, &ru_o)
 
 / {
     behaviors {
@@ -150,7 +150,7 @@ MAKE_MOD_TAP(mod_ru_o, RSHFT, &ru_o)
         ru {
             bindings = <
 &none  &ru_y   &ru_ts  &ru_u          &ru_k  &ru_ye       &ru_n      &ru_g     &ru_sh     &ru_z   &ru_kh  &none
-&none  &mod_ru_f   &mod_ru_bi  &mod_ru_v          &mod_ru_a  &ru_p        &ru_r      &mod_ru_o     &mod_ru_l      &mod_ru_d   &mod_ru_zh  &none
+&none  &mod_ru_f 0  &mod_ru_bi 0 &mod_ru_v 0         &mod_ru_a  &ru_p        &ru_r      &mod_ru_o 0   &mod_ru_l 0     &mod_ru_d 0  &mod_ru_zh 0 &none
 &none  &ru_ya  &ru_ch  &ru_s          &ru_m  &ru_i        &ru_t      &ru_soft  &ru_b      &ru_yu  &ru_e   &none
                        &kp BACKSPACE  &mo 2  &kp SPACE    &kp SPACE  &mo 3     &kp ENTER
             >;
