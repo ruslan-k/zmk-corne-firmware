@@ -12,8 +12,6 @@
 };
 
 / {
-
-/ {
     behaviors {
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
