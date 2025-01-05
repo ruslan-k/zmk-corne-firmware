@@ -148,7 +148,7 @@ MAKE_MOD_TAP(mod_ru_o, &kp, &ru_o)
             bindings = <
 &none  &kp Q         &kp W        &kp E          &kp R         &kp T        &kp Y      &kp U         &kp I          &kp O             &kp P              &none
 &none  &hml LCTRL A  &hml LALT S  &hml LGUI D    &hml LSHFT F  &kp G        &kp H      &hmr RSHFT J  &hmr RGUI K    &hmr RALT L       &hmr RCTRL TILDE   &none
-&none  &kp Z         &kp X        &kp C          &kp V         &kp B        &kp N      &kp M         &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&none  &kp Z         &kp X        &kp C          &kp V         &kp B        &kp N      &kp M         &kp AMPERSAND  &kp LESS_THAN  &kp MORE_THAN  &none
                                   &kp BACKSPACE  &mo 2         &kp SPACE    &kp SPACE  &mo 3         &kp ENTER
             >;
         };
