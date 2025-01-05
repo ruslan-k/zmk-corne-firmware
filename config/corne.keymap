@@ -35,6 +35,28 @@
             tapping-term-ms = <280>;
             hold-trigger-on-release;
         };
+
+                macro_ru_layer_ctrl_space: macro {
+            label = "Switch to RU Layer and Ctrl+Space";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                &to 1             // Switch to the RU layer
+                &kp LCTRL         // Press Ctrl
+                &kp SPACE         // Press Space
+            >;
+        };
+
+        macro_en_layer_ctrl_space: macro {
+            label = "Switch to EN Layer and Ctrl+Space";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                &to 0             // Switch to the EN layer
+                &kp LCTRL         // Press Ctrl
+                &kp SPACE         // Press Space
+            >;
+        };
     };
 
     combos {
@@ -72,29 +94,17 @@
         };
 
         ru_layer_switch {
-            bindings = <&to 1>;
+            bindings = <
+                &macro_ru_layer_ctrl_space   // Replace with the RU macro
+            >;
             key-positions = <39 40>;
         };
 
         en_layer_switch {
-            bindings = <&to 0>;
+            bindings = <
+                &macro_en_layer_ctrl_space   // Replace with the EN macro
+            >;
             key-positions = <37 38>;
-        };
-    };
-
-    macros {
-        switch_to_eng: switch_to_eng {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp SPACE>,
-                <&macro_release>,
-                <&kp LSHFT>;
-
-            label = "SWITCH_TO_ENG";
         };
     };
 
