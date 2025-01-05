@@ -24,8 +24,6 @@
 *******************************************************************************/
 
 #pragma once
-#include "keycodes.h"
-// clang-format off
 
 // Aliases
 #define RU_YO   KC_GRV  // Ё
