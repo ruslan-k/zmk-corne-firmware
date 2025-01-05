@@ -36,14 +36,14 @@
             hold-trigger-on-release;
         };
 
-        ru_layer_switch: macro {
+        ru_layer_switch: ru_layer_switch {
             label = "Switch to RU Layer and Ctrl+Space";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 1 &kp LCTRL &kp SPACE>;
         };
 
-        en_layer_switch: macro {
+        en_layer_switch: en_layer_switch {
             label = "Switch to EN Layer and Ctrl+Space";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
