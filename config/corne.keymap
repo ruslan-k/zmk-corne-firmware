@@ -1,9 +1,13 @@
 #define HOST_OS 1
+
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/36.h"
 #include "behaviors.dtsi"
 #include "dt-bindings/zmk/bt.h"
 #include "dt-bindings/zmk/keys.h"
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     behaviors {
@@ -34,7 +38,6 @@
         };
     };
 
-
     combos {
         compatible = "zmk,combos";
 
@@ -43,11 +46,10 @@
             key-positions = <1 2>;
         };
 
-        escape {
+        tab {
             bindings = <&kp TAB>;
-            key-positions = <1 2>;
+            key-positions = <13 14>;
         };
-
 
         ru_yo {
             bindings = <&ru_yo>;
@@ -92,19 +94,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q           &kp W           &kp E               &kp R             &kp T        &kp Y      &kp U              &kp I                &kp O             &kp P                &none
-&none  &hml LCTRL A           &hml LALT S           &hml LGUI D               &hml LSHFT F             &kp G        &kp H      &hmr RSHFT J              &hmr RGUI K                &hmr RALT L             &hmr RCTRL TILDE            &none
-&none  &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N      &kp M              &kp AMPERSAND        &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &none
-                                       &kp BACKSPACE       &mo 2             &kp SPACE    &kp SPACE  &mo 3              &kp ENTER
+&none  &kp Q         &kp W        &kp E          &kp R         &kp T        &kp Y      &kp U         &kp I          &kp O             &kp P              &none
+&none  &hml LCTRL A  &hml LALT S  &hml LGUI D    &hml LSHFT F  &kp G        &kp H      &hmr RSHFT J  &hmr RGUI K    &hmr RALT L       &hmr RCTRL TILDE   &none
+&none  &kp Z         &kp X        &kp C          &kp V         &kp B        &kp N      &kp M         &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+                                  &kp BACKSPACE  &mo 2         &kp SPACE    &kp SPACE  &mo 3         &kp ENTER
             >;
         };
 
         ru {
             bindings = <
-&none  &ru_y   &ru_ts  &ru_u          &ru_k  &ru_ye       &ru_n      &ru_g     &ru_sh     &ru_z   &ru_kh  &none
-&none  &mod_ru_f LCTRL 0  &mod_ru_bi LALT 0 &mod_ru_v LGUI 0         &mod_ru_a  LSHFT 0   &ru_p        &ru_r      &mod_ru_o RSHFT 0   &mod_ru_l RGUI 0     &mod_ru_d RALT 0  &mod_ru_zh RCTRL 0 &none
-&none  &ru_ya  &ru_ch  &ru_s          &ru_m  &ru_i        &ru_t      &ru_soft  &ru_b      &ru_yu  &ru_e   &none
-                       &kp BACKSPACE  &mo 2  &kp SPACE    &kp SPACE  &mo 3     &kp ENTER
+&none  &ru_y              &ru_ts             &ru_u             &ru_k              &ru_ye       &ru_n      &ru_g              &ru_sh            &ru_z             &ru_kh              &none
+&none  &mod_ru_f LCTRL 0  &mod_ru_bi LALT 0  &mod_ru_v LGUI 0  &mod_ru_a LSHFT 0  &ru_p        &ru_r      &mod_ru_o RSHFT 0  &mod_ru_l RGUI 0  &mod_ru_d RALT 0  &mod_ru_zh RCTRL 0  &none
+&none  &ru_ya             &ru_ch             &ru_s             &ru_m              &ru_i        &ru_t      &ru_soft           &ru_b             &ru_yu            &ru_e               &none
+                                             &kp BACKSPACE     &mo 2              &kp SPACE    &kp SPACE  &mo 3              &kp ENTER
             >;
         };
 
@@ -131,10 +133,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL   &kp AT    &kp HASH   &kp DLLR           &kp PRCNT       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &none
-&none  &kp PG_UP  &kp UP    &kp PG_DN  &kp DOUBLE_QUOTES  &kp TILDE2      &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &none
-&none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DOT            &kp COMMA       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &none
-                            &kp LGUI   &none              &kp SPACE       &kp SPACE  &none      &kp RALT
+&none  &kp EXCL   &kp AT    &kp HASH   &kp DLLR           &kp PRCNT     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &none
+&none  &kp PG_UP  &kp UP    &kp PG_DN  &kp DOUBLE_QUOTES  &kp TILDE2    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &none
+&none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DOT            &kp COMMA     &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &none
+                            &kp LGUI   &none              &kp SPACE     &kp SPACE  &none      &kp RALT
             >;
         };
     };
