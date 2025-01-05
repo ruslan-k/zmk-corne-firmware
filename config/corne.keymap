@@ -1,3 +1,4 @@
+#define HOST_OS 1
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/36.h"
 #include "zmk-helpers/unicode-chars/russian.dtsi"
