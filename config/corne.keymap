@@ -36,26 +36,18 @@
             hold-trigger-on-release;
         };
 
-                macro_ru_layer_ctrl_space: macro {
+        ru_layer_switch: macro {
             label = "Switch to RU Layer and Ctrl+Space";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                &to 1             // Switch to the RU layer
-                &kp LCTRL         // Press Ctrl
-                &kp SPACE         // Press Space
-            >;
+            bindings = <&to 1 &kp LCTRL &kp SPACE>;
         };
 
-        macro_en_layer_ctrl_space: macro {
+        en_layer_switch: macro {
             label = "Switch to EN Layer and Ctrl+Space";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                &to 0             // Switch to the EN layer
-                &kp LCTRL         // Press Ctrl
-                &kp SPACE         // Press Space
-            >;
+            bindings = <&to 0 &kp LCTRL &kp SPACE>;
         };
     };
 
@@ -94,18 +86,17 @@
         };
 
         ru_layer_switch {
-            bindings = <
-                &macro_ru_layer_ctrl_space   // Replace with the RU macro
-            >;
+            bindings = <&ru_layer_switch>;
             key-positions = <39 40>;
         };
 
         en_layer_switch {
-            bindings = <
-                &macro_en_layer_ctrl_space   // Replace with the EN macro
-            >;
+            bindings = <&en_layer_switch>;
             key-positions = <37 38>;
         };
+    };
+
+    macros {
     };
 
     keymap {
