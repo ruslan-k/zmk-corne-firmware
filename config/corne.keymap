@@ -51,21 +51,21 @@
         };
 
         ru_yo {
-            bindings = <&ru_yo>;
+            bindings = <&kp RU_CYRILLIC_IO>;
             key-positions = <5 40>;
             layers = <1>;
             timeout-ms = <50>;
         };
 
         ru_schya {
-            bindings = <&ru_shch>;
+            bindings = <&kp RU_CYRILLIC_SHCHA>;
             key-positions = <8 40>;
             layers = <1>;
             timeout-ms = <50>;
         };
 
         ru_hard_sign {
-            bindings = <&ru_hard>;
+            bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <31 40>;
             layers = <1>;
             timeout-ms = <50>;
@@ -86,11 +86,14 @@
         switch_to_eng: switch_to_eng {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp SPACE>
-                , <&macro_release &kp LSHFT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp SPACE>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
             label = "SWITCH_TO_ENG";
         };
     };
