@@ -35,7 +35,9 @@
             tapping-term-ms = <280>;
             hold-trigger-on-release;
         };
-
+    };
+        
+    macros {     
         ru_layer_switch: ru_layer_switch {
             label = "Switch to RU Layer and Ctrl+Space";
             compatible = "zmk,behavior-macro";
