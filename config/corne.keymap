@@ -46,7 +46,7 @@ ZMK_UNICODE_PAIR(ru_tone ,    N0 , N4 , N4 ,  C ,    N0 , N4 , N4 ,  A) // ь/ъ
 #define MAKE_MOD_TAP(NAME, BINDING1, BINDING2) \
     ZMK_HOLD_TAP(NAME, \
         flavor = "hold-preferred"; \
-        tapping-term-ms = <200>; \
+        tapping-term-ms = <400>; \
         bindings = <BINDING1>, <BINDING2>; \
     )
 
