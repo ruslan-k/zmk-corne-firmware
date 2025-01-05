@@ -86,7 +86,11 @@
         switch_to_eng: switch_to_eng {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp SPACE>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp SPACE>
+                , <&macro_release &kp LSHFT>
+                ;
             label = "SWITCH_TO_ENG";
         };
     };
