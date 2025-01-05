@@ -49,12 +49,6 @@
             key-positions = <1 2>;
         };
 
-        ru_layer_switch {
-            bindings = <&tog 1>;
-            key-positions = <14 38>;
-            slow-release;
-        };
-
         ru_yo {
             bindings = <&ru_yo>;
             key-positions = <5 40>;
