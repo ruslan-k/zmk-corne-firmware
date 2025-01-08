@@ -132,10 +132,10 @@
         raise {
             display-name = "raise";
             bindings = <
-&none  &kp EXCL             &kp AT            &kp HASH                 &kp DLLR                       &kp PRCNT     &kp CARET      &kp AMPS                &kp ASTRK                &kp LPAR             &kp RPAR             &none
-&none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT DOUBLE_QUOTES  &kp TILDE2    &kp MINUS      &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
-&none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp DOT                        &kp COMMA     &kp UNDER      &kp PLUS                &kp LBRC                 &kp RBRC             &kp PIPE             &none
-                                              &kp TAB                  &mo 2                          &kp SPACE     &kp BACKSPACE  &mo 3                   &kp ENTER
+&none  &kp EXCL             &kp AT            &kp HASH                 &kp DLLR                       &kp PRCNT       &kp CARET      &kp AMPS                &kp ASTRK                &kp LPAR             &kp RPAR             &none
+&none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT DOUBLE_QUOTES  &kp TILDE2      &kp MINUS      &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
+&none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp KP_DOT                     &kp KP_COMMA    &kp UNDER      &kp PLUS                &kp LBRC                 &kp RBRC             &kp PIPE             &none
+                                              &kp TAB                  &mo 2                          &kp SPACE       &kp BACKSPACE  &mo 3                   &kp ENTER
             >;
         };
     };
