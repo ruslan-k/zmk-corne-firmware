@@ -138,13 +138,23 @@
                                               &kp TAB                  &mo 2                          &kp SPACE       &kp BACKSPACE  &mo 3                   &kp ENTER
             >;
         };
+
+        raise_ru {
+            display-name = "raise_ru";
+            bindings = <
+&none  &kp EXCL             &kp AT            &kp HASH                 &kp DLLR                       &kp PRCNT       &kp CARET      &kp AMPS                &kp ASTRK                &kp LPAR             &kp RPAR             &none
+&none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT DOUBLE_QUOTES  &kp TILDE2      &kp MINUS      &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
+&none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp RU_DOT                     &kp RU_COMMA    &kp UNDER      &kp PLUS                &kp LBRC                 &kp RBRC             &kp FSLH             &none
+                                              &kp TAB                  &mo 2                          &kp SPACE       &kp BACKSPACE  &mo 3                   &kp ENTER
+            >;
+        };
     };
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
         ru-raise {
-            if-layers = <1>;
+            if-layers = <1 3>;
             then-layer = <3>;
         };
     };
