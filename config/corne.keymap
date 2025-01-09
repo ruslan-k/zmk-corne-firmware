@@ -144,7 +144,7 @@
             bindings = <
 &none  &kp EXCL             &kp AT            &kp HASH                 &kp DLLR                       &kp PRCNT       &kp CARET      &kp AMPS               &kp ASTRK                &kp LPAR             &kp RPAR                     &none
 &none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT DOUBLE_QUOTES  &kp TILDE       &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI RU_BACKSLASH  &none
-&none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp RU_DOT                     &kp RU_COMMA    &kp UNDER      &kp PLUS               &kp LBRC                 &kp RBRC             &kp RU_SLASH                 &none
+&none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp RU_DOT                     &kp RU_COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp RU_SLASH                 &none
                                               &kp TAB                  &mo 2                          &kp SPACE       &kp BACKSPACE  &mo 3                  &kp ENTER
             >;
         };
