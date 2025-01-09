@@ -120,7 +120,7 @@
         };
 
         lower {
-            display-name = "lower";
+            display-name = "low";
             bindings = <
 &none  &kp N1        &kp N2        &kp N3        &kp N4             &kp N5             &kp N6         &kp N7                &kp N8                &kp N9   &kp N0   &none
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F11  &kp F12  &none
@@ -130,7 +130,7 @@
         };
 
         raise {
-            display-name = "raise";
+            display-name = "r_en";
             bindings = <
 &none  &kp EXCL             &kp AT            &kp HASH                 &kp DLLR                       &kp PRCNT     &kp CARET      &kp AMPS                &kp ASTRK                &kp LPAR             &kp RPAR             &none
 &none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT DOUBLE_QUOTES  &kp TILDE2    &kp MINUS      &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
@@ -140,7 +140,7 @@
         };
 
         raise_ru {
-            display-name = "raise_ru";
+            display-name = "r_ru";
             bindings = <
 &none  &kp EXCL             &kp AT            &kp HASH                 &kp DLLR                       &kp PRCNT       &kp CARET      &kp AMPS                &kp ASTRK                &kp LPAR             &kp RPAR                         &none
 &none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT DOUBLE_QUOTES  &kp TILDE2      &kp MINUS      &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI NON_US_BACKSLASH  &none
