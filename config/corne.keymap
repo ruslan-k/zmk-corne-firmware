@@ -155,7 +155,7 @@
 
         ru-raise {
             if-layers = <1 3>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 };
