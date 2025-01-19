@@ -88,7 +88,7 @@
             bindings = <
 &none  &kp Q            &kp W            &kp E                &kp R              &kp T        &kp Y          &kp U               &kp I                 &kp O             &kp P                 &none
 &none  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G        &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI TILDE  &none
-&none  &kp Z            &kp X            &kp C                &kp V              &kp B        &kp N          &kp M               &kp LESS_THAN         &kp GREATER_THAN  &kp TILDE             &none
+&none  &kp Z            &kp X            &kp C                &kp V              &kp B        &kp N          &kp M               &kp LESS_THAN         &kp GREATER_THAN  &kp GRAVE             &none
                                          &kp TAB              &mo 3              &kp SPACE    &kp BACKSPACE  &mo 2               &kp ENTER
             >;
         };
@@ -119,7 +119,7 @@
             display-name = "low_en";
             bindings = <
 &none  &kp N1               &kp N2            &kp N3                   &kp N4                        &kp N5       &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0               &none
-&none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT SINGLE_QUOTE  &kp GRAVE    &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
+&none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT SINGLE_QUOTE  &kp COLON    &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
 &none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp DOT                       &kp COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp FSLH             &none
                                               &kp TAB                  &mo 3                         &kp SPACE    &kp BACKSPACE  &mo 2                  &kp ENTER
             >;
