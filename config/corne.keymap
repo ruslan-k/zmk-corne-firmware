@@ -100,6 +100,11 @@
             key-positions = <37 38>;
             slow-release;
         };
+
+        fm_layer_switch {
+            bindings = <&to 5>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
