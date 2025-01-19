@@ -98,11 +98,6 @@
             bindings = <&lm 0 LC(LA(LS(E)))>;
             key-positions = <37 38>;
         };
-
-        fm_layer_switch {
-            bindings = <&mo 4>;
-            key-positions = <37 40>;
-        };
     };
 
     keymap {
@@ -153,8 +148,8 @@
         fn {
             bindings = <
 &none  &kp F1           &kp F2       &kp F3   &kp F4  &kp F5       &kp F6             &kp F7             &kp F8        &kp F9                &kp F10  &none
-&none  &kt LA(LS(TAB))  &kt LA(TAB)  &none   &none  &none       &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &kp C_BRIGHTNESS_INC  &kp F11  &none
-&none  &kt LC(LS(TAB))  &kt LC(TAB)  &none   &none  &none       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE    &kp C_BRIGHTNESS_DEC  &kp F12  &none
+&none  &kt LA(LS(TAB))  &kt LA(TAB)  &none    &none   &none        &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &kp C_BRIGHTNESS_INC  &kp F11  &none
+&none  &kt LC(LS(TAB))  &kt LC(TAB)  &none    &none   &none        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp K_MUTE    &kp C_BRIGHTNESS_DEC  &kp F12  &none
                                      &kp TAB  &mo 2   &kp SPACE    &kp BACKSPACE      &kp LC(BACKSPACE)  &kp ENTER
             >;
 
