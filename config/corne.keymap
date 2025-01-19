@@ -90,7 +90,7 @@
 &none  &kp Q            &kp W            &kp E                &kp R              &kp T        &kp Y          &kp U               &kp I                 &kp O             &kp P                 &none
 &none  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G        &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI TILDE  &none
 &none  &kp Z            &kp X            &kp C                &kp V              &kp B        &kp N          &kp M               &kp AMPERSAND         &kp LESS_THAN     &kp FSLH              &none
-                                         &kp TAB              &mo 3              &kp SPACE    &kp BACKSPACE  &kp ESC             &kp ENTER
+                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
         };
 
@@ -110,7 +110,7 @@
 &none  &kp RU_CYRILLIC_SHORT_I       &kp RU_CYRILLIC_TSE             &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IO    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_ZE             &kp RU_CYRILLIC_HA              &none
 &none  &hml LEFT_WIN RU_CYRILLIC_EF  &hml LEFT_ALT RU_CYRILLIC_YERU  &hml LEFT_CONTROL RU_CYRILLIC_VE  &hml LEFT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_CONTROL RU_CYRILLIC_EL  &hmr RIGHT_ALT RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE  &none
 &none  &kp RU_CYRILLIC_YA            &kp RU_CYRILLIC_CHE             &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM             &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_HARD_SIGN       &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E               &none
-                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &kp ESC                         &kp ENTER
+                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
 
             label = "hi_ru";
@@ -122,7 +122,7 @@
 &none  &kp N1               &kp N2            &kp N3                   &kp N4                        &kp N5       &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0               &none
 &none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT SINGLE_QUOTE  &kp GRAVE    &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BSLH  &none
 &none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp DOT                       &kp COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp FSLH             &none
-                                              &kp TAB                  &mo 3                         &kp SPACE    &kp BACKSPACE  &mo 3                  &kp ENTER
+                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
 
             label = "low_en";
@@ -134,7 +134,7 @@
 &none  &kp N1               &kp N2            &kp N3                   &kp N4                        &kp N5          &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0                       &none
 &none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT SINGLE_QUOTE  &kp GRAVE       &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI RU_BACKSLASH  &none
 &none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp RU_DOT                    &kp RU_COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp RU_SLASH                 &none
-                                              &kp TAB                  &mo 3                         &kp SPACE       &kp BACKSPACE  &mo 3                  &kp ENTER
+                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
         };
 
@@ -143,7 +143,7 @@
 &none  &kp F1           &kp F2           &kp F3     &kp F4         &kp F5         &kp F6             &kp F7           &kp F8        &kp F9                &kp F10  &none
 &none  &kt LA(LS(TAB))  &kt LC(LS(TAB))  &kp LC(T)  &kp LC(LS(T))  &kp K_COPY     &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2  &kp C_BRIGHTNESS_INC  &kp F11  &none
 &none  &kt LA(TAB)      &kt LC(TAB)      &kp LC(W)  &kp LC(LS(W))  &kp K_PASTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE    &kp C_BRIGHTNESS_DEC  &kp F12  &none
-                                         &kp TAB    &mo 3          &kp SPACE      &kp BACKSPACE      &mo 3            &kp ENTER
+                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
 
             label = "fn";
