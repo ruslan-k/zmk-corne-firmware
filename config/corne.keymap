@@ -70,20 +70,23 @@
             key-positions = <5 37>;
             layers = <1>;
             timeout-ms = <50>;
+            slow-release;
         };
 
         ru_schya {
             bindings = <&kp RU_CYRILLIC_SHCHA>;
-            key-positions = <8 37>;
+            key-positions = <8 40>;
             layers = <1>;
             timeout-ms = <50>;
+            slow-release;
         };
 
         ru_hard_sign {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
-            key-positions = <31 37>;
+            key-positions = <31 40>;
             layers = <1>;
             timeout-ms = <50>;
+            slow-release;
         };
 
         ru_layer_switch {
