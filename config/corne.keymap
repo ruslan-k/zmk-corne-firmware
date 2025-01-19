@@ -92,13 +92,11 @@
         ru_layer_switch {
             bindings = <&lm 1 LC(LA(LS(R)))>;
             key-positions = <39 40>;
-            slow-release;
         };
 
         en_layer_switch {
             bindings = <&lm 0 LC(LA(LS(E)))>;
             key-positions = <37 38>;
-            slow-release;
         };
 
         fm_layer_switch {
