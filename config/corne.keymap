@@ -88,7 +88,7 @@
             bindings = <
 &none  &kp Q            &kp W            &kp E                &kp R              &kp T        &kp Y          &kp U               &kp I                 &kp O             &kp P                 &none
 &none  &hml LEFT_WIN A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G        &kp H          &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI TILDE  &none
-&none  &kp Z            &kp X            &kp C                &kp V              &kp B        &kp N          &kp M               &kp LESS_THAN         &kp GREATER_THAN  &kp AT                &none
+&none  &kp Z            &kp X            &kp C                &kp V              &kp B        &kp N          &kp M               &kp LESS_THAN         &kp GREATER_THAN  &kp PIPE              &none
                                          &kp TAB              &mo 3              &kp SPACE    &kp BACKSPACE  &mo 2               &kp ENTER
             >;
         };
@@ -120,7 +120,7 @@
             bindings = <
 &none  &kp N1                &kp N2               &kp N3                         &kp N4                &kp N5       &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0                    &none
 &none  &hml LEFT_WIN DOLLAR  &hml LEFT_ALT PRCNT  &hml LEFT_CONTROL EXCLAMATION  &hml LEFT_SHIFT SEMI  &kp COLON    &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BACKSLASH  &none
-&none  &kp PIPE              &kp STAR             &kp QUESTION                   &kp DOT               &kp COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp SLASH                 &none
+&none  &kp AT                &kp STAR             &kp QUESTION                   &kp DOT               &kp COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp SLASH                 &none
                                                   &kp TAB                        &mo 3                 &kp SPACE    &kp BACKSPACE  &mo 2                  &kp ENTER
             >;
 
