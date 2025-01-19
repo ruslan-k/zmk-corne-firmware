@@ -78,6 +78,12 @@
             key-positions = <37 40>;
             timeout-ms = <200>;
         };
+
+        switch_to_fn_layer {
+            bindings = <&to 5>;
+            key-positions = <39 41 40>;
+            timeout-ms = <100>;
+        };
     };
 
     keymap {
