@@ -157,10 +157,10 @@
         game {
             label = "game";
             bindings = <
-&none      &kp Q  &kp W  &kp E    &kp R      &kp T        &none      &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&kp SPACE  &kp A  &kp S  &kp D    &kp F      &kp G        &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&kp SPACE  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-                         &kp TAB  &kp ENTER  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE
+&none      &kp Q  &kp W  &kp E    &kp R            &kp T        &none      &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+&kp SPACE  &kp A  &kp S  &kp D    &kp F            &kp G        &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+&kp SPACE  &kp Z  &kp X  &kp C    &kp V            &kp B        &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+                         &kp TAB  &mt ENTER ENTER  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE
             >;
         };
     };
