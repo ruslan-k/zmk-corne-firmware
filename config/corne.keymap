@@ -157,10 +157,20 @@
         game {
             label = "game";
             bindings = <
-&none      &kp Q  &kp W  &kp E    &kp R            &kp T        &none      &none  &none  &none  &none  &none
-&none  &kp A  &kp S  &kp D    &kp F            &kp G        &none  &none  &none  &none  &none  &none
-&none  &kp Z  &kp X  &kp C    &kp V            &kp B        &none  &none  &none  &none  &none  &none
-                         &kp TAB  &mt ENTER ENTER  &none    &none  &none  &none
+&none  &kp Q  &kp W  &kp E    &kp R            &kp T    &none  &none  &none  &none  &none  &none
+&none  &kp A  &kp S  &kp D    &kp F            &kp G    &none  &none  &none  &none  &none  &none
+&none  &kp Z  &kp X  &kp C    &kp V            &kp B    &none  &none  &none  &none  &none  &none
+                     &kp TAB  &mt ENTER ENTER  &none    &none  &none  &none
+            >;
+        };
+
+        game_low {
+            label = "game_l";
+            bindings = <
+&none  &kp Q  &kp W  &kp E    &kp R            &kp T    &none  &none  &none  &none  &none  &none
+&none  &kp A  &kp S  &kp D    &kp F            &kp G    &none  &none  &none  &none  &none  &none
+&none  &kp Z  &kp X  &kp C    &kp V            &kp B    &none  &none  &none  &none  &none  &none
+                     &kp TAB  &mt ENTER ENTER  &none    &none  &none  &none
             >;
         };
     };
