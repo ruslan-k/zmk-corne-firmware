@@ -143,7 +143,7 @@
 &none  &kp N1               &kp N2            &kp N3                   &kp N4                        &kp N5          &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0                       &none
 &none  &hml LEFT_WIN PG_UP  &hml LEFT_ALT UP  &hml LEFT_CONTROL PG_DN  &hml LEFT_SHIFT SINGLE_QUOTE  &kp GRAVE       &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI RU_BACKSLASH  &none
 &none  &kp LEFT             &kp DOWN          &kp RIGHT                &kp RU_DOT                    &kp RU_COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp RU_SLASH                 &none
-                                              &kp TAB                  &mo 2                         &kp SPACE       &kp BACKSPACE  &kp ESC                &kp ENTER
+                                              &kp TAB                  &mo 2                         &kp SPACE       &kp BACKSPACE  &mo 2                  &kp ENTER
             >;
         };
 
