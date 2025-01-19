@@ -178,7 +178,7 @@
         compatible = "zmk,conditional-layers";
 
         ru-low {
-            if-layers = <1 3>;
+            if-layers = <1 2>;
             then-layer = <4>;
         };
     };
