@@ -67,21 +67,21 @@
 
         ru_yo {
             bindings = <&kp RU_CYRILLIC_IO>;
-            key-positions = <5 40>;
+            key-positions = <5 37>;
             layers = <1>;
             timeout-ms = <50>;
         };
 
         ru_schya {
             bindings = <&kp RU_CYRILLIC_SHCHA>;
-            key-positions = <8 40>;
+            key-positions = <8 37>;
             layers = <1>;
             timeout-ms = <50>;
         };
 
         ru_hard_sign {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
-            key-positions = <31 40>;
+            key-positions = <31 37>;
             layers = <1>;
             timeout-ms = <50>;
         };
