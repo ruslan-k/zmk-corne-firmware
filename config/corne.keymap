@@ -65,27 +65,6 @@
             key-positions = <1 2>;
         };
 
-        ru_yo {
-            bindings = <&kp RU_CYRILLIC_IO>;
-            key-positions = <5 37>;
-            layers = <1>;
-            timeout-ms = <50>;
-        };
-
-        ru_schya {
-            bindings = <&kp RU_CYRILLIC_SHCHA>;
-            key-positions = <8 40>;
-            layers = <1>;
-            timeout-ms = <50>;
-        };
-
-        ru_hard_sign {
-            bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
-            key-positions = <31 40>;
-            layers = <1>;
-            timeout-ms = <50>;
-        };
-
         ru_layer_switch {
             bindings = <&lm 1 LC(LA(LS(R)))>;
             key-positions = <39 40>;
@@ -121,7 +100,7 @@
 &none  &kp RU_CYRILLIC_SHORT_I       &kp RU_CYRILLIC_TSE             &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHA                &kp RU_CYRILLIC_ZE             &kp RU_CYRILLIC_HA              &none
 &none  &hml LEFT_WIN RU_CYRILLIC_EF  &hml LEFT_ALT RU_CYRILLIC_YERU  &hml LEFT_CONTROL RU_CYRILLIC_VE  &hml LEFT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_CONTROL RU_CYRILLIC_EL  &hmr RIGHT_ALT RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE  &none
 &none  &kp RU_CYRILLIC_YA            &kp RU_CYRILLIC_CHE             &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM             &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN       &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E               &none
-                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &kp ESC                         &kp ENTER
+                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
         };
 
