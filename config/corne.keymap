@@ -69,6 +69,7 @@
             key-positions = <5 40>;
             layers = <1>;
             timeout-ms = <50>;
+            slow-release;
         };
 
         ru_schya {
@@ -76,6 +77,7 @@
             key-positions = <8 40>;
             layers = <1>;
             timeout-ms = <50>;
+            slow-release;
         };
 
         ru_hard_sign {
@@ -83,16 +85,19 @@
             key-positions = <31 40>;
             layers = <1>;
             timeout-ms = <50>;
+            slow-release;
         };
 
         ru_layer_switch {
             bindings = <&lm 1 LC(LA(LS(R)))>;
             key-positions = <39 40>;
+            slow-release;
         };
 
         en_layer_switch {
             bindings = <&lm 0 LC(LA(LS(E)))>;
             key-positions = <37 38>;
+            slow-release;
         };
     };
 
