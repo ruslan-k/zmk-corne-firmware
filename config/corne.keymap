@@ -107,6 +107,11 @@
             bindings = <&bt BT_SEL 3>;
             key-positions = <37 36 3>;
         };
+
+        bt-clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <5 36 37>;
+        };
     };
 
     keymap {
