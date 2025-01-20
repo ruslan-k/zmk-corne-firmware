@@ -85,6 +85,12 @@
             key-positions = <39 41 40>;
             timeout-ms = <100>;
         };
+
+        switch_to_game_layer {
+            bindings = <&to 6>;
+            key-positions = <38 37 36>;
+            timeout-ms = <100>;
+        };
     };
 
     keymap {
