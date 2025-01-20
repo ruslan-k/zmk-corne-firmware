@@ -157,10 +157,10 @@
         low_en {
             display-name = "low_en";
             bindings = <
-&none  &kp N1           &kp N2               &kp N3                         &kp N4                &kp N5       &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0                    &none
-&none  &hml DQT DOLLAR  &hml LEFT_ALT PRCNT  &hml LEFT_CONTROL EXCLAMATION  &hml LEFT_SHIFT SEMI  &kp COLON    &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BACKSLASH  &none
-&none  &kp SQT          &kp STAR             &kp QUESTION                   &kp DOT               &kp COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp SLASH                 &none
-                                             &kp TAB                        &mo 3                 &kp SPACE    &kp BACKSPACE  &mo 2                  &kp ENTER
+&none  &kp N1            &kp N2               &kp N3                         &kp N4                &kp N5       &kp N6         &kp N7                 &kp N8                   &kp N9               &kp N0                    &none
+&none  &hml DQT DOLLAR   &hml LEFT_ALT PRCNT  &hml LEFT_CONTROL EXCLAMATION  &hml LEFT_SHIFT SEMI  &kp COLON    &kp MINUS      &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT  &hmr RIGHT_GUI BACKSLASH  &none
+&none  &kp SINGLE_QUOTE  &kp STAR             &kp QUESTION                   &kp DOT               &kp COMMA    &kp UNDER      &kp EQUAL              &kp LBRC                 &kp RBRC             &kp SLASH                 &none
+                                              &kp TAB                        &mo 3                 &kp SPACE    &kp BACKSPACE  &mo 2                  &kp ENTER
             >;
 
             label = "low_en";
