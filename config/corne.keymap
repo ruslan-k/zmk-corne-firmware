@@ -112,6 +112,11 @@
             bindings = <&bt BT_CLR>;
             key-positions = <5 36 37>;
         };
+
+        bt-clear-all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <36 37 4>;
+        };
     };
 
     keymap {
