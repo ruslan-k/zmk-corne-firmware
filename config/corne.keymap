@@ -91,17 +91,19 @@
 
         bt1 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <1 37 36>;
+            key-positions = <1 25 13 37>;
+            timeout-ms = <200>;
         };
 
         bt2 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <37 36 2>;
+            key-positions = <2 14 26 37>;
+            timeout-ms = <200>;
         };
 
         bt3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <37 36 3>;
+            key-positions = <3 15 27 37>;
         };
 
         bt-clear {
