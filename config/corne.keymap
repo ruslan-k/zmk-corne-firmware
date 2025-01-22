@@ -79,13 +79,13 @@
 
         switch_to_fn_layer {
             bindings = <&to 5>;
-            key-positions = <40 7 8 6>;
+            key-positions = <40 7 8 6 9>;
             timeout-ms = <100>;
         };
 
         switch_to_game_layer {
             bindings = <&to 6>;
-            key-positions = <37 5 4 3>;
+            key-positions = <37 5 4 3 2>;
             timeout-ms = <100>;
         };
 
