@@ -113,6 +113,14 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <36 37 4>;
         };
+
+        alt-tab {
+            bindings = <&kp RA(TAB)>;
+            key-positions = <37 36>;
+            timeout-ms = <200>;
+            slow-release;
+            layers = <0 2 1 3 4 5>;
+        };
     };
 
     keymap {
