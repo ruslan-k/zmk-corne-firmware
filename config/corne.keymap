@@ -62,12 +62,12 @@
         };
 
         ru_layer_switch {
-            bindings = <&lm 1 LC(LA(LS(R)))>;
+            bindings = <&lm 1 LC(LS(R))>;
             key-positions = <39 40>;
         };
 
         en_layer_switch {
-            bindings = <&lm 0 LC(LA(LS(E)))>;
+            bindings = <&lm 0 LC(LS(E))>;
             key-positions = <37 38>;
         };
 
