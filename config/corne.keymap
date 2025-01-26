@@ -190,7 +190,7 @@
         num_ru_hi {
             display-name = "hum_hi_ru";
             bindings = <
-&none  &kp RU_EQUAL           &kp N1                  &kp NUMBER_2                &kp NUMBER_3        &kp RU_CYRILLIC_IO    &none          &none                      &kp RU_CYRILLIC_SHCHA  &none           &none            &none
+&none  &kp RU_EQUAL           &kp N1                  &kp NUMBER_2                &kp NUMBER_3        &kp RU_CYRILLIC_IO    &kp TAB        &none                      &kp RU_CYRILLIC_SHCHA  &none           &none            &none
 &none  &hml LEFT_WIN RU_PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT N6  &kp RU_ASTERISK       &kp HOME       &kp RIGHT_SHIFT            &kp PAGE_UP            &kp UP          &kp PAGE_DOWN    &none
 &none  &kp RU_MINUS           &kp NUMBER_7            &kp NUMBER_8                &kp N9              &kp RU_SLASH          &kp END        &kp RU_CYRILLIC_HARD_SIGN  &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
                                                       &kp N0                      &kp RU_DOT          &kp SPACE             &kp BACKSPACE  &none                      &kp ENTER
