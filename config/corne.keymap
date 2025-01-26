@@ -235,7 +235,7 @@
         compatible = "zmk,conditional-layers";
 
         fn_ru {
-            if-layers = <1 4>;
+            if-layers = <1 5>;
             then-layer = <6>;
         };
 
