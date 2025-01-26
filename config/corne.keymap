@@ -122,6 +122,11 @@
             bindings = <&kp TAB>;
             key-positions = <13 14>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 9>;
+        };
     };
 
     keymap {
