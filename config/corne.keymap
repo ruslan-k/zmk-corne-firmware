@@ -178,7 +178,7 @@
 
         num_en_hi1 {
             label = "num_en_hi1";
-            display-name = "hum_hi_ru";
+            display-name = "num_en_hi";
             bindings = <
 &none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp COMMA          &kp CAPSLOCK   &none                      &kp RU_CYRILLIC_SHCHA  &none           &none            &none
 &none  &hml LEFT_WIN RU_PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT NUMBER_6  &kp RU_ASTERISK    &kp HOME       &kp RIGHT_SHIFT            &kp PAGE_UP            &kp UP          &kp PAGE_DOWN    &none
