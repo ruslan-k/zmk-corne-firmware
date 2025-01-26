@@ -180,10 +180,10 @@
             label = "num_en_hi";
             display-name = "hum_hi_ru";
             bindings = <
-&none  &kp EQUAL           &kp N1                  &kp NUMBER_2                &kp NUMBER_3        &kp none    &none          &none  &none      &none  &none  &none
-&none  &hml LEFT_WIN PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT N6  &kp ASTERISK       &none          &none  &none      &none  &none  &none
-&none  &kp RU_MINUS           &kp NUMBER_7            &kp NUMBER_8                &kp N9              &kp SLASH          &none          &none  &none      &none  &none  &none
-                                                      &kp N0                      &kp RU_DOT          &kp SPACE             &kp BACKSPACE  &none  &kp ENTER
+&none  &kp EQUAL           &kp N1                  &kp NUMBER_2                &kp NUMBER_3        &none           &none          &none  &none      &none  &none  &none
+&none  &hml LEFT_WIN PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT N6  &kp ASTERISK    &none          &none  &none      &none  &none  &none
+&none  &kp RU_MINUS        &kp NUMBER_7            &kp NUMBER_8                &kp N9              &kp SLASH       &none          &none  &none      &none  &none  &none
+                                                   &kp N0                      &kp RU_DOT          &kp SPACE       &kp BACKSPACE  &none  &kp ENTER
             >;
         };
 
