@@ -155,10 +155,10 @@
         sym_en_low {
             display-name = "low_en";
             bindings = <
-&none  &kp GRAVE                   &kp AT                     &kp HASH                      &kp DOLLAR                &none    &kp CARET          &kp AMPERSAND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE                    &none
-&none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT ASTERISK  &hml LEFT_CONTROL PERCENT  &hml LEFT_SHIFT COLON  &kp SEMICOLON      &kp UNDERSCORE  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT       &hmr RIGHT_GUI BACKSLASH  &none
-&none  &kp DOUBLE_QUOTES           &kp PLUS                &kp MINUS                  &kp DOT                &kp COMMA          &kp QUESTION    &kp EXCLAMATION     &kp LBRC                 &kp RBRC                  &kp SLASH                 &none
-                                                              &kp TAB                       &none                     &kp SPACE             &kp BACKSPACE      &none                  &kp ENTER
+&none  &kp GRAVE                   &kp AT                  &kp HASH                   &kp DOLLAR             &kp TILDE        &kp CARET       &kp AMPERSAND          &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS  &kp TILDE                 &none
+&none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT ASTERISK  &hml LEFT_CONTROL PERCENT  &hml LEFT_SHIFT COLON  &kp SEMICOLON    &kp UNDERSCORE  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT    &hmr RIGHT_GUI BACKSLASH  &none
+&none  &kp DOUBLE_QUOTES           &kp PLUS                &kp MINUS                  &kp DOT                &kp COMMA        &kp QUESTION    &kp EXCLAMATION        &kp LBRC                 &kp RBRC               &kp SLASH                 &none
+                                                           &kp TAB                    &none                  &kp SPACE        &kp BACKSPACE   &none                  &kp ENTER
             >;
 
             label = "sym_en_low";
