@@ -127,13 +127,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <10 9>;
         };
-
-        fn_layer_switch {
-            bindings = <&none>;
-            key-positions = <37 40>;
-            timeout-ms = <200>;
-            layers = <6>;
-        };
     };
 
     keymap {
