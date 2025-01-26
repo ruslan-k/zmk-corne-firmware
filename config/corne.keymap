@@ -187,7 +187,7 @@
             >;
         };
 
-        num_ru_hi1 {
+        num_ru_hi {
             display-name = "hum_hi_ru";
             bindings = <
 &none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp RU_COMMA       &kp CAPSLOCK   &none                      &kp RU_CYRILLIC_SHCHA  &none           &none            &none
@@ -196,7 +196,7 @@
                                                       &kp NUMBER_0                &kp RU_DOT                &kp SPACE          &kp BACKSPACE  &none                      &kp ENTER
             >;
 
-            label = "num_ru_hi1";
+            label = "num_ru_hi";
         };
 
         fn {
