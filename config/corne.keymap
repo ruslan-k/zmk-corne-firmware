@@ -204,7 +204,7 @@
             bindings = <
 &none  &kp F1        &kp F2             &kp F3            &kp F4                &kp F5                  &kp F6            &kp F7           &kp F8             &kp F9         &kp F10        &none
 &none  &kp LEFT_GUI  &kp LEFT_ALT       &kp LEFT_CONTROL  &kp LEFT_SHIFT        &none                   &none             &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
-&none  &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp K_PLAY_PAUSE  &kp K_PREV       &kp K_NEXT         &kp F11        &kp F12        &none
+&none  &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP  &kp C_MUTE    &kp K_PLAY_PAUSE  &kp K_PREV       &kp K_NEXT         &kp F11        &kp F12        &none
                                         &kp TAB           &none                 &kp SPACE               &kp BACKSPACE     &none            &kp LA(LC(LS(M)))
             >;
 
