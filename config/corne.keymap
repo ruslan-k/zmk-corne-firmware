@@ -155,10 +155,10 @@
         hum_hi_ru {
             display-name = "hi_ru";
             bindings = <
-&none  &kp RU_CYRILLIC_SHORT_I       &kp RU_CYRILLIC_TSE             &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IO    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHCHA              &kp RU_CYRILLIC_ZE             &kp RU_CYRILLIC_HA              &none
-&none  &hml LEFT_WIN RU_CYRILLIC_EF  &hml LEFT_ALT RU_CYRILLIC_YERU  &hml LEFT_CONTROL RU_CYRILLIC_VE  &hml LEFT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_CONTROL RU_CYRILLIC_EL  &hmr RIGHT_ALT RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE  &none
-&none  &kp RU_CYRILLIC_YA            &kp RU_CYRILLIC_CHE             &kp RU_CYRILLIC_ES                &kp RU_CYRILLIC_EM             &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_HARD_SIGN       &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E               &none
-                                                                     &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
+&none  &kp RU_CYRILLIC_SHORT_I       &kp N1                  &kp NUMBER_2                &kp NUMBER_3        &kp RU_CYRILLIC_IO    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHCHA              &kp RU_CYRILLIC_ZE             &kp RU_CYRILLIC_HA              &none
+&none  &hml LEFT_WIN RU_CYRILLIC_EF  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT N6  &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_CONTROL RU_CYRILLIC_EL  &hmr RIGHT_ALT RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE  &none
+&none  &kp RU_CYRILLIC_YA            &kp NUMBER_7            &kp NUMBER_8                &kp N9              &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_HARD_SIGN       &kp RU_CYRILLIC_BE                 &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E               &none
+                                                             &kp TAB                     &mo 3               &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
 
             label = "hum_hi_ru";
