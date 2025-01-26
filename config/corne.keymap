@@ -161,7 +161,7 @@
                                                       &kp N0                      &kp RU_DOT          &kp SPACE             &kp BACKSPACE  &mo 2                           &kp ENTER
             >;
 
-            label = "hum_hi_ru";
+            label = "num_ru_hi";
         };
 
         low_en {
