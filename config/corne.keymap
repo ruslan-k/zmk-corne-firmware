@@ -152,8 +152,8 @@
             >;
         };
 
-        hum_hi_ru {
-            display-name = "hi_ru";
+        num_ru_hi {
+            display-name = "hum_hi_ru";
             bindings = <
 &none  &kp RU_EQUAL           &kp N1                  &kp NUMBER_2                &kp NUMBER_3        &kp RU_CYRILLIC_IO    &none          &none                           &kp RU_CYRILLIC_SHCHA              &none                          &none                           &none
 &none  &hml LEFT_WIN RU_PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT N6  &kp RU_ASTERISK       &none          &hmr RIGHT_SHIFT RU_CYRILLIC_O  &hmr RIGHT_CONTROL RU_CYRILLIC_EL  &hmr RIGHT_ALT RU_CYRILLIC_DE  &hmr RIGHT_GUI RU_CYRILLIC_ZHE  &none
