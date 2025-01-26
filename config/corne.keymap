@@ -75,6 +75,7 @@
             bindings = <&mo 6>;
             key-positions = <37 40>;
             timeout-ms = <200>;
+            layers = <6>;
         };
 
         switch_to_fn_layer {
