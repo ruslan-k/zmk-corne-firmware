@@ -191,10 +191,10 @@
         num_ru_hi {
             display-name = "num_ru_hi";
             bindings = <
-&none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp RU_DOT         &kp RU_COMMA   &none                      &kp RU_CYRILLIC_SHCHA  &none           &kp CAPSLOCK     &none
-&none  &hml LEFT_WIN RU_PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT NUMBER_6  &kp RU_ASTERISK    &kp HOME       &kp RIGHT_SHIFT            &kp PAGE_UP            &kp UP          &kp PAGE_DOWN    &none
-&none  &kp RU_MINUS           &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp RU_SLASH       &kp END        &kp RU_CYRILLIC_HARD_SIGN  &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-                                                      &kp NUMBER_0                &mo 3                     &kp SPACE          &kp BACKSPACE  &mo 5                      &kp ENTER
+&none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp LG(RU_PERCENT)    &kp RU_DOT     &kp RU_COMMA               &kp RU_CYRILLIC_SHCHA  &none           &kp CAPSLOCK     &none
+&none  &hml LEFT_WIN RU_PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT NUMBER_6  &kp RU_ASTERISK       &kp HOME       &kp RIGHT_SHIFT            &kp PAGE_UP            &kp UP          &kp PAGE_DOWN    &none
+&none  &kp RU_MINUS           &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp RU_SLASH          &kp END        &kp RU_CYRILLIC_HARD_SIGN  &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+                                                      &kp NUMBER_0                &mo 3                     &kp SPACE             &kp BACKSPACE  &mo 5                      &kp ENTER
             >;
 
             label = "num_ru_hi";
