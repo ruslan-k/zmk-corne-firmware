@@ -176,8 +176,8 @@
             label = "sym_ru_low";
         };
 
-        num_en_hi {
-            label = "num_en_hi";
+        num_en_hi1 {
+            label = "num_en_hi1";
             display-name = "hum_hi_ru";
             bindings = <
 &none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp COMMA          &kp CAPSLOCK   &none                      &kp RU_CYRILLIC_SHCHA  &none           &none            &none
