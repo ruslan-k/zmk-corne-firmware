@@ -204,7 +204,7 @@
 &none  &kp F1     &kp F2    &kp F3         &kp F4        &kp F5             &kp F6             &kp F7                   &kp F8                           &kp F9                           &kp F10             &none
 &none  &kp PG_UP  &kp UP    &kp PAGE_DOWN  &kp HOME      &kp END            &kp K_PREVIOUS     &hmr RIGHT_SHIFT K_NEXT  &hmr RIGHT_CONTROL K_PLAY_PAUSE  &hmr RIGHT_ALT C_BRIGHTNESS_INC  &hmr RIGHT_GUI F11  &none
 &none  &kp LEFT   &kp DOWN  &kp RIGHT      &kp CAPSLOCK  &kp PRINTSCREEN    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP          &kp K_MUTE                       &kp C_BRIGHTNESS_DEC             &kp F12             &none
-                            &kp TAB        &mo 3         &kp SPACE          &kp BACKSPACE      &mo 5                    &kp LA(LC(LS(M)))
+                            &kp TAB        &none         &kp SPACE          &kp BACKSPACE      &none                    &kp LA(LC(LS(M)))
             >;
 
             label = "fn";
