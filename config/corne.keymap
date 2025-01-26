@@ -152,7 +152,7 @@
             >;
         };
 
-        hi_ru {
+        hum_hi_ru {
             display-name = "hi_ru";
             bindings = <
 &none  &kp RU_CYRILLIC_SHORT_I       &kp RU_CYRILLIC_TSE             &kp RU_CYRILLIC_U                 &kp RU_CYRILLIC_KA             &kp RU_CYRILLIC_IO    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE             &kp RU_CYRILLIC_SHCHA              &kp RU_CYRILLIC_ZE             &kp RU_CYRILLIC_HA              &none
@@ -161,7 +161,7 @@
                                                                      &kp TAB                           &mo 3                          &kp SPACE             &kp BACKSPACE       &mo 2                           &kp ENTER
             >;
 
-            label = "hi_ru";
+            label = "hum_hi_ru";
         };
 
         low_en {
