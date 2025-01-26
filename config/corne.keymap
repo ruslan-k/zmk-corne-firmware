@@ -158,7 +158,7 @@
 &none  &kp GRAVE                   &kp AT                  &kp HASH                   &kp DOLLAR             &kp PIPE         &kp CARET       &kp AMPERSAND          &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS  &kp TILDE                 &none
 &none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT ASTERISK  &hml LEFT_CONTROL PERCENT  &hml LEFT_SHIFT COLON  &kp SEMICOLON    &kp UNDERSCORE  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT    &hmr RIGHT_GUI BACKSLASH  &none
 &none  &kp DOUBLE_QUOTES           &kp PLUS                &kp MINUS                  &kp DOT                &kp COMMA        &kp QUESTION    &kp EXCLAMATION        &kp LBRC                 &kp RBRC               &kp SLASH                 &none
-                                                           &kp TAB                    &to 2                  &kp SPACE        &kp BACKSPACE   &to 4                  &kp ENTER
+                                                           &kp TAB                    &none                  &kp SPACE        &kp BACKSPACE   &to 4                  &kp ENTER
             >;
 
             label = "sym_en_low";
@@ -170,7 +170,7 @@
 &none  &kp GRAVE                   &kp AT                     &kp HASH                      &kp DOLLAR                &kp RU_CYRILLIC_IO    &kp CARET          &kp AMPERSAND          &kp RU_LEFT_PARENTHESIS  &kp RU_RIGHT_PARENTHESIS  &kp TILDE                    &none
 &none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT RU_ASTERISK  &hml LEFT_CONTROL RU_PERCENT  &hml LEFT_SHIFT RU_COLON  &kp RU_SEMICOLON      &kp RU_UNDERSCORE  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LBKT  &hmr RIGHT_ALT RBKT       &hmr RIGHT_GUI RU_BACKSLASH  &none
 &none  &kp DOUBLE_QUOTES           &kp RU_PLUS                &kp RU_MINUS                  &kp RU_DOT                &kp RU_COMMA          &kp RU_QUESTION    &kp RU_EXCLAMATION     &kp LBRC                 &kp RBRC                  &kp RU_SLASH                 &none
-                                                              &kp TAB                       &to 3                     &kp SPACE             &kp BACKSPACE      &to 5                  &kp ENTER
+                                                              &kp TAB                       &none                     &kp SPACE             &kp BACKSPACE      &to 5                  &kp ENTER
             >;
 
             label = "sym_ru_low";
