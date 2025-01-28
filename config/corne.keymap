@@ -118,16 +118,6 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <37 4 28 16>;
         };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 14>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <10 9>;
-        };
     };
 
     keymap {
