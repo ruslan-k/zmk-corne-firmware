@@ -156,7 +156,7 @@
         sym_en_low {
             display-name = "low_en";
             bindings = <
-&none  &none                       &kp AT                  &kp HASH                   &kp DOLLAR             &kp GRAVE        &kp CARET       &kp AMPERSAND           &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS       &kp TILDE                 &none
+&none  &kp GRAVE                   &kp AT                  &kp HASH                   &kp DOLLAR             &kp PERCENT      &kp CARET       &kp AMPERSAND           &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS       &kp TILDE                 &none
 &none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT ASTERISK  &hml LEFT_CONTROL PERCENT  &hml LEFT_SHIFT COLON  &kp SEMICOLON    &kp UNDERSCORE  &hmr RIGHT_SHIFT EQUAL  &hmr RIGHT_CONTROL LEFT_BRACE  &hmr RIGHT_ALT RIGHT_BRACE  &hmr RIGHT_GUI BACKSLASH  &none
 &none  &kp DOUBLE_QUOTES           &kp PLUS                &kp MINUS                  &kp DOT                &kp COMMA        &kp QUESTION    &kp EXCLAMATION         &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp SLASH                 &none
                                                            &kp TAB                    &mo 2                  &kp SPACE        &kp BACKSPACE   &mo 4                   &kp ENTER
