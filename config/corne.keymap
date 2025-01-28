@@ -168,10 +168,10 @@
         sym_ru_low {
             display-name = "low_ru";
             bindings = <
-&none  &kp RU_EQUAL                &kp AT                     &kp HASH                      &kp DOLLAR                &kp RU_CYRILLIC_IO    &kp CARET          &kp AMPERSAND          &kp RU_LEFT_PARENTHESIS        &kp RU_RIGHT_PARENTHESIS    &kp TILDE                    &none
-&none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT RU_ASTERISK  &hml LEFT_CONTROL RU_PERCENT  &hml LEFT_SHIFT RU_COLON  &kp RU_SEMICOLON      &kp RU_UNDERSCORE  &hmr RIGHT_SHIFT PLUS  &hmr RIGHT_CONTROL LEFT_BRACE  &hmr RIGHT_ALT RIGHT_BRACE  &hmr RIGHT_GUI RU_BACKSLASH  &none
-&none  &kp DOUBLE_QUOTES           &kp RU_PLUS                &kp RU_MINUS                  &kp RU_DOT                &kp RU_COMMA          &kp RU_QUESTION    &kp RU_EXCLAMATION     &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp RU_SLASH                 &none
-                                                              &kp TAB                       &mo 3                     &kp SPACE             &kp BACKSPACE      &mo 5                  &kp ENTER
+&none  &kp GRAVE                   &kp AT                     &kp HASH                      &kp DOLLAR                &kp RU_CYRILLIC_IO    &kp CARET          &kp AMPERSAND              &kp RU_LEFT_PARENTHESIS        &kp RU_RIGHT_PARENTHESIS    &kp TILDE                    &none
+&none  &hml LEFT_WIN SINGLE_QUOTE  &hml LEFT_ALT RU_ASTERISK  &hml LEFT_CONTROL RU_PERCENT  &hml LEFT_SHIFT RU_COLON  &kp RU_SEMICOLON      &kp RU_UNDERSCORE  &hmr RIGHT_SHIFT RU_EQUAL  &hmr RIGHT_CONTROL LEFT_BRACE  &hmr RIGHT_ALT RIGHT_BRACE  &hmr RIGHT_GUI RU_BACKSLASH  &none
+&none  &kp DOUBLE_QUOTES           &kp RU_PLUS                &kp RU_MINUS                  &kp RU_DOT                &kp RU_COMMA          &kp RU_QUESTION    &kp RU_EXCLAMATION         &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp RU_SLASH                 &none
+                                                              &kp TAB                       &mo 3                     &kp SPACE             &kp BACKSPACE      &mo 5                      &kp ENTER
             >;
 
             label = "sym_ru_low";
