@@ -103,7 +103,7 @@
         };
 
         bt3 {
-            bindings = <&bt BT_SEL 3>;
+            bindings = <&bt BT_SEL 2>;
             key-positions = <37 25 26 27>;
             timeout-ms = <200>;
         };
@@ -171,9 +171,9 @@
             label = "num_en_hi";
             display-name = "num_en_hi";
             bindings = <
-&none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp PERCENT        &kp DOT        &kp COMMA        &none           &none           &kp CAPSLOCK     &none
+&none  &kp RU_EQUAL           &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp PERCENT        &kp DOT        &kp COMMA        &none                       &none              &kp CAPSLOCK              &none
 &none  &hml LEFT_WIN RU_PLUS  &hml LEFT_ALT NUMBER_4  &hml LEFT_CONTROL NUMBER_5  &hml LEFT_SHIFT NUMBER_6  &kp RU_ASTERISK    &kp HOME       &kp RIGHT_SHIFT  &hmr RIGHT_CONTROL PAGE_UP  &hmr RIGHT_ALT UP  &hmr RIGHT_GUI PAGE_DOWN  &none
-&none  &kp RU_MINUS           &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp SLASH          &kp END        &none            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&none  &kp RU_MINUS           &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp SLASH          &kp END        &none            &kp LEFT_ARROW              &kp DOWN_ARROW     &kp RIGHT_ARROW           &none
                                                       &kp NUMBER_0                &mo 2                     &kp SPACE          &kp BACKSPACE  &mo 4            &kp ENTER
             >;
         };
