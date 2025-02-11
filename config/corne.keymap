@@ -118,6 +118,12 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <37 4 28 16>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <10 9>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
